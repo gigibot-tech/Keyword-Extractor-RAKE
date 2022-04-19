@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get('/')
 def keywords():
-    return {"Hello World!"}
+    return {"message":"Hello TutLinks.com"}
     #return json.dumps({"keywords": extract_keywords(text)})
 
 """
