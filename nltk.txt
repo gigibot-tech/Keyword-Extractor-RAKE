@@ -1,0 +1,2 @@
+wordnet
+rake-nltk==1.0.6
