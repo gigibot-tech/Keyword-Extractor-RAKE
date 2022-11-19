@@ -5,7 +5,7 @@ import json
 
 app = FastAPI()
 
-@app.get('/')
+@app.get('/{text}')
 def keywords(text:str):
     return json.dumps({"keywords": extract_keywords(text)})
 
